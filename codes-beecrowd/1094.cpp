@@ -6,8 +6,10 @@ int main() {
     double quantidade = 0;
     string tipo = "";
     cin >> n;
+    // Fixando a precisao em 2 casas decimais
     cout << fixed;
     cout << setprecision(2);
+    // --------------------------------------
     for (int i = 0; i< n; i++){
          cin >> quantidade >> tipo;
          if(tipo == "C"){
@@ -24,6 +26,7 @@ int main() {
              quantidade = 0;
          }
     }
+    // Como terei de mostra as casas decimais, eu criei variáveis extras com ponto flutuante para fazer as contas de %
     double c = 0, r = 0, s = 0;
     c = coelhos;
     r = ratos;
