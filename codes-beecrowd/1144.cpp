@@ -6,7 +6,7 @@ int main() {
     cin >> n;
     int contador = 0;
     for(int i = 1; i<=n; i++){
-        cout << i << i*i << i*i*i << "\n";
-        cout << i << i*i+1 << i*i*i+1 << "\n";
+        cout << i << " " << i*i << " " << i*i*i << "\n";
+        cout << i << " " << i*i+1 << " " << i*i*i+1 << "\n";
     }
 }
